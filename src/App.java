@@ -1,8 +1,10 @@
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
         // System.out.println("Hello, World!");
 
-        cadastro object = new cadastro();
-        pet p = new pet ();
+        Cadastro objC = new Cadastro();
+        Pet objP = new Pet();
+        Menu objM = new Menu();
     }
 }
+

@@ -1,26 +1,23 @@
 
-package com.example;
 
 import javax.swing.*;
-import java.awt.*;
+// import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Cadastro extends JFrame implements ActionListener {
+public class Menu extends JFrame implements ActionListener {
 
     private JTextField txtCliente;
-    private JTextField txtDtNascimento;
-    private JTextField txtCPF;
-    private JTextField txtEmail;
-    private JTextField txtEndereco;
+    private JTextField txtServico;
+    private JTextField txtPet;
     private JButton btnCadastro;
     private JButton btnCancelar;
 
-    public Cadastro(String title) {
+    public Menu(String title) {
         super(title);
 
         // Definir layout para a janela
-        setLayout(new GridLayout(6, 2));
+        // setLayout(new GridLayout(6, 2));
 
         // Criar rótulos e campos de texto...
 
@@ -37,7 +34,7 @@ public class Cadastro extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new Cadastro("Cadastro de Clientes"));
+        SwingUtilities.invokeLater(() -> new Menu("Menu"));
     }
 
     @Override
