@@ -23,8 +23,12 @@ public class Menu extends JFrame implements ActionListener{
 
         // Criar os JMenuItems
         JMenuItem clienteItem = new JMenuItem("Novo Cliente");
-        JMenuItem petItem = new JMenuItem("Pet");
-        JMenuItem servicosItem = new JMenuItem("Serviços");
+        // JMenuItem clienteItem = new JMenuItem("Todos");
+        JMenuItem petItem = new JMenuItem("Novo Pet");
+        // JMenuItem petItem = new JMenuItem("Todos");
+        JMenuItem servicosItem = new JMenuItem("Novo Serviço");
+        // JMenuItem servicosItem = new JMenuItem("Serviço em andamento");
+
 
         // Adicionar os JMenuItems aos JMenus
         clienteMenu.add(clienteItem);
